@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registro de clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+
+        <h1>
+            Formulario de registro
+        </h1>
+
+        <form id="form-registro">
+            <div class="form-nombre-apellido">
+                <label>
+                    Nombre
+                    <input id="firstname-form" type="text" placeholder="Ada"> 
+                </label>
+                <label>
+                    Apellido
+                    <input id="surname-form" type="text" placeholder="Lovelace"> 
+                </label>
+            </div>
+        
+            <div class="form-dni-email">
+                <label>
+                    DNI
+                    <input id="dni-form" type="number" maxlength="8" placeholder="99.999.999"> 
+                </label>
+                <label>
+                    Email
+                    <input id="email-form" type="email" placeholder="adalovelace@gmail.com"> 
+                </label>
+            </div>
+
+            <div class="form-contrasenia-repetir">
+                <label>
+                    Contraseña
+                    <input id="password-form" type="password" minlength="8" maxlength="16" placeholder="********" >
+                </label>
+
+                <label>
+                    Repetir contraseña
+                    <input id="password2-form" type="password" placeholder="********">
+                </label>
+            </div>
+
+            <small>*La contraseña debe tener entre 8 y 16 carácteres</small>
+            
+            <div class="form-terminos-registrarse">
+                <label class="terminos">
+                    <input id="terminos-form" type="checkbox"> Aceptar términos y condiciones
+                </label>
+                <div class="shadow">
+                    <p class="button">
+                        Registrarse
+                    </p>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

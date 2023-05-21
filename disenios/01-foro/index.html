@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Foro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteiner">
+        <h3>
+            Create a new Topic
+        </h3>
+        <form id="form-create">
+            <label>
+                <input id="form-title" type="text" placeholder="Type title, or paste a link here">
+            </label>
+            <div class="form-list">
+                <label>
+                    <select id="category">
+                        <option value="category" disabled selected>Category</option>
+                    </select>
+                </label>
+                <label>
+                    <select id="tags">
+                        <option disabled selected value="tags">Tags</option>
+                    </select>
+                </label>
+            </div>
+            <!-- textarea/descripcion -->
+            <textarea id="description" placeholder="Enter your description here" maxlength="100"></textarea>
+            
+        </form>
+
+        <!-- Botones -->
+        <div class="button">
+                <div>
+                    <p class="button-create">
+                        Create Topic
+                    </p>
+                </div>
+                <div>
+                    <p class="button-cancel">
+                        Cancel
+                    </p>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

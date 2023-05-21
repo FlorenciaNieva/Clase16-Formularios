@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #feeff4;
+}
+
+.conteiner {
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+}
+label {
+    margin: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-title {
+    width: 380px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 182, 182);
+}
+.form-list {
+    display: flex;
+}
+#category {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 182, 182);
+}
+
+#tags {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 182, 182);
+}
+
+#description {
+    resize: none;
+    width: 390px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 182, 182);
+    margin-top: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+.button-create {
+    background-color: #ec3168;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+.button-cancel {
+    background-color: #eff4fd;
+    color: gray;
+    padding: 15px 70px;
+    border-radius: 5px;
+}

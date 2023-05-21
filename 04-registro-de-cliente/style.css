@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    color: rgb(101, 100, 100);
+    display: flex;
+    justify-content: center;
+}
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.form-nombre-apellido {
+    display: flex;
+    margin-bottom: 20px;
+}
+.form-dni-email {
+    display: flex;
+    margin-bottom: 20px;
+}
+.form-contrasenia-repetir {
+    display: flex;
+}
+.form-terminos-registrarse {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#firstname-form {
+    padding: 15px;
+    margin-top: 10px;
+}
+#surname-form {
+    padding: 15px;
+    margin-top: 10px;
+}
+#dni-form{
+    padding: 15px;
+    margin-top: 10px;
+}
+#email-form {
+    padding: 15px;
+    margin-top: 10px;
+}
+#password-form {
+    padding: 15px;
+    margin-top: 10px;
+}
+#password2-form {
+    padding: 15px;
+    margin-top: 10px;
+}
+small {
+    font-size: 12px;
+    margin: 5px;
+}
+
+.terminos {
+    flex-direction: row;
+    margin-top: 20px;
+}
+.button {
+    margin: auto;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
